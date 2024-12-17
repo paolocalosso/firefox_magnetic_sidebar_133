@@ -1,0 +1,155 @@
+/* about:newtab */
+
+@-moz-document url("about:newtab"), url("about:home") {
+    body {
+        /*background: url("../walls/ubuntu-gruvbox.jpg") !important ; background-size: cover !important ;*/
+        --newtab-background-color: #282828 /*#83A598*/ /*#282828*/ /*var(--gnome-browser-before-load-background)*/ !important;
+        --newtab-background-color-secondary: var(--gnome-menu-background) !important;
+        --newtab-primary-action-background: var(--gnome-accent) !important;
+    }
+    .personalize-button {
+        margin-top: 31px !important;
+        margin- right: 31px !important;
+        border-radius: 50px !important;
+        background-color: #1b1d1c !important;
+        transition: transform 1.5s ease;
+    }
+
+    .personalize-button:hover {
+        background-color: #83A598 !important;
+        transform: rotate(360deg) !important;
+    }
+    .context-menu-button {
+        border-radius: 25px !important;
+        border-color: #1b1d1c !important;
+        background-color: #1b1d1c !important;
+        /*transform: scaleX(1);*/
+        transition-delay: 500ms,500ms !important;
+    }
+    .context-menu-button:hover {
+        border-radius: 25px !important;
+        background-color: #83a598 !important;
+        border-color: #83a598 !important;
+    }
+    .section-top-bar {
+        display: hidden !important;
+        margin-top: 0px !important;
+    }
+    .section-title {
+        display: none !important;
+    }
+    .ds-top-sites {
+        margin-top: 75px !important;
+    }
+    .ds-highlights {
+        border-top: 1px solid #E7E9CE  !important;
+    }
+    .card {
+        border-radius: 25px !important;
+    }
+    .card-outer {
+        border-radius: 25px !important;
+        transition: all .5s ease !important;
+    }
+    .card-outer:hover {
+        z-index: 15 !important;
+        border-radius: 25px !important;
+        transform: scale(0.95) !important;
+    }
+    .card-preview-image-outer {
+        border-radius: 25px 25px 0 0  !important;
+    }
+    /*.card-preview-image {
+        border-radius: 25px 25px 0 0 !important;
+    }*/
+    .tile {
+        border-radius: 50px !important;
+        background-color: rgb(27,29,28,0.70) !important;
+        backdrop-filter: blur(10px) !important;
+        transition: transform .5s ease;
+    }
+    .tile:hover {
+        transform: scale(0.95) !important;
+        background-color: #83A598 !important;
+        /*box-shadow: 0 0 0 2px #E7E9CE !important;*/
+    }
+    .top-site-icon {
+        border-radius: 50% !important;
+        transition: transform .5s ease;
+    }
+    .top-site-icon:hover {
+        border-radius: 50% !important;
+        transform: rotate(360deg) !important;
+    }
+    .top-site-outer:hover {
+        border-radius: 20px !important;
+        background-color: rgb(27,29,28,0.65) !important;
+        backdrop-filter: blur(10px) !important;
+    }
+    /*.rich-icon*/
+    .context-menu {
+        -moz-appearance: none !important;
+        border-radius: 15px !important;
+        color: var(--gnome-toolbar-color) !important;
+        font: menu !important;
+        min-width: 120px !important;
+        padding: 4px 4px !important;
+        min-height: 32px !important;
+        background-color: rgba(27,29,28, .95);
+    }
+    .menuitem {
+        border-radius: 30px !important;
+        color: var(--gnome-toolbar-color) !important;
+        font: menu !important;
+        min-width: 120px !important;
+        padding: 4px 4px !important;
+        min-height: 32px !important;
+        background-color: #E7E9CE !important;
+    }
+    /*.context-menu-item {
+        border-radius: 30px !important;
+        color: var(--gnome-toolbar-color) !important;
+        font: menu !important;
+        min-width: 120px !important;
+        padding: 4px 4px !important;
+        min-height: 32px !important;
+        background-color: transparent!important;
+    }
+    .context-menu-item:hover {
+        border-radius: 30px !important;
+        color: var(--gnome-toolbar-color) !important;
+        font: menu !important;
+        min-width: 120px !important;
+        padding: 4px 4px !important;
+        min-height: 32px !important;
+        background-color: #83A598 !important;
+    }*/
+    [role="menuitem"] {
+        border-radius: 30px !important;
+        color: var(--gnome-toolbar-color) !important;
+        font: menu !important;
+        font-size: 50% !important;
+        min-width: 270px !important;
+        padding: 4px 10px !important;
+        min-height: 32px !important;
+        background-color: transparent !important;
+    }
+    [role="menuitem"]:hover {
+        border-radius: 30px !important;
+        transition: .35s !important;
+        padding-left: 16px!important;
+        min-height: 32px !important;
+        background-color: #83A598 !important;
+    }
+    .separator {
+        display: none !important;
+    }
+}
+
+@-moz-document url("about:home"),
+               url("about:newtab")
+{
+  :root[lwt-newtab-brighttext] {
+    --newtab-primary-action-background: transparent !important;
+  }
+}
