@@ -71,8 +71,9 @@
     .tile:hover {
         transform: scale(0.95) !important;
         background-color: #83A598 !important;
-        /*box-shadow: 0 0 0 2px #E7E9CE !important;*/
+        box-shadow: 0 0 0 2px #1b1d1c !important;
     }
+
     .top-site-icon {
         border-radius: 50% !important;
         transition: transform .5s ease;
@@ -151,5 +152,13 @@
 {
   :root[lwt-newtab-brighttext] {
     --newtab-primary-action-background: transparent !important;
+  }
+}
+
+
+@-moz-document url("about:home"), url("about:newtab"){
+  .search-wrapper input,
+  .top-site-outer .tile{
+    outline: none !important;
   }
 }
