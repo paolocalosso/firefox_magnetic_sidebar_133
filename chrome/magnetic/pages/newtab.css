@@ -63,7 +63,7 @@
         border-radius: 25px 25px 0 0 !important;
     }*/
     .tile {
-        border-radius: 50px !important;
+        border-radius: 50px 50px 50px 0 !important;
         background-color: rgb(27,29,28,0.70) !important;
         backdrop-filter: blur(10px) !important;
         transition: transform .5s ease;
@@ -71,7 +71,7 @@
     .tile:hover {
         transform: scale(0.95) !important;
         background-color: #83A598 !important;
-        box-shadow: 0 0 0 2px #1b1d1c !important;
+        box-shadow: 0 0 0 10px #1b1d1c85 !important;
     }
 
     .top-site-icon {
