@@ -53,7 +53,7 @@ menupopup > menu{
   -moz-default-appearance: -moz-window-button-close !important;
 }
 
-:root[tabsintitlebar] #titlebar:-moz-window-inactive { opacity: 100 !important; }
+:root[customtitlebar] #titlebar:-moz-window-inactive { opacity: 100 !important; }
 
 
 

@@ -34,13 +34,13 @@
     }
 
     /* enable rounded top corners */
-    :root[tabsintitlebar][sizemode="normal"]:not([gtktiledwindow="true"]):not([customizing="true"]) #nav-bar {
+    :root[customtitlebar][sizemode="normal"]:not([gtktiledwindow="true"]):not([customizing="true"]) #nav-bar {
         border-top-left-radius: env(-moz-gtk-csd-titlebar-radius);
         border-top-right-radius: env(-moz-gtk-csd-titlebar-radius);
     }
 
     /* window control padding values (these don't change the size of the actual buttons, only the padding for the navbar) */
-    :root[tabsintitlebar]:not([customizing="true"]) {
+    :root[customtitlebar]:not([customizing="true"]) {
         /* default button/padding size based on adw-gtk3 theme */
         --uc-win-ctrl-btn-width: 38px;
         --uc-win-ctrl-padding: 12px;
@@ -50,7 +50,7 @@
         --uc-win-ctrl-drag-space: 20px;
     }
 
-    :root[tabsintitlebar][lwtheme]:not([customizing="true"]) {
+    :root[customtitlebar][lwtheme]:not([customizing="true"]) {
         /* seperate values for when using a theme, based on the Firefox defaults */
         --uc-win-ctrl-btn-width: 30px;
         --uc-win-ctrl-padding: 12px;

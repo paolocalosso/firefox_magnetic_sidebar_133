@@ -45,11 +45,11 @@ button.close::before,
 #permissions-granted-icon,
 #downloads-indicator-icon,
 .textbox-search-clear,
-:root[tabsintitlebar]  #titlebar .titlebar-buttonbox .titlebar-close .toolbarbutton-icon,
-:root[tabsintitlebar] #titlebar  .titlebar-buttonbox .titlebar-max .toolbarbutton-icon,
-:root[tabsintitlebar] #titlebar .titlebar-buttonbox .titlebar-restore .toolbarbutton-icon,
-:root[tabsintitlebar] #titlebar .titlebar-buttonbox .titlebar-min .toolbarbutton-icon,
-:root[tabsintitlebar][inFullscreen] #window-controls #restore-button .toolbarbutton-icon {
+:root[customtitlebar]  #titlebar .titlebar-buttonbox .titlebar-close .toolbarbutton-icon,
+:root[customtitlebar] #titlebar  .titlebar-buttonbox .titlebar-max .toolbarbutton-icon,
+:root[customtitlebar] #titlebar .titlebar-buttonbox .titlebar-restore .toolbarbutton-icon,
+:root[customtitlebar] #titlebar .titlebar-buttonbox .titlebar-min .toolbarbutton-icon,
+:root[customtitlebar][inFullscreen] #window-controls #restore-button .toolbarbutton-icon {
 	fill: var(--gnome-toolbar-icon-fill) !important;
 	-moz-context-properties: fill;
 }
@@ -99,19 +99,19 @@ menuitem[type="radio"][disabled="true"] .menu-iconic-icon {
 }
 
 /* Window buttons */
-	:root[tabsintitlebar] .titlebar-buttonbox .titlebar-close .toolbarbutton-icon {
+	:root[customtitlebar] .titlebar-buttonbox .titlebar-close .toolbarbutton-icon {
 		list-style-image: url("../icons/window-close-symbolic.svg") !important;
 	}
-	:root[tabsintitlebar] .titlebar-buttonbox .titlebar-max .toolbarbutton-icon {
+	:root[customtitlebar] .titlebar-buttonbox .titlebar-max .toolbarbutton-icon {
 		list-style-image: url("../icons/window-maximize-symbolic.svg") !important;
 	}
-	:root[tabsintitlebar] .titlebar-buttonbox .titlebar-restore .toolbarbutton-icon {
+	:root[customtitlebar] .titlebar-buttonbox .titlebar-restore .toolbarbutton-icon {
 		list-style-image: url("../icons/window-restore-symbolic.svg") !important;
 	}
-	:root[tabsintitlebar][inFullscreen] .titlebar-buttonbox .titlebar-restore .toolbarbutton-icon {
+	:root[customtitlebar][inFullscreen] .titlebar-buttonbox .titlebar-restore .toolbarbutton-icon {
 		list-style-image: url("../icons/view-restore-symbolic.svg") !important;
 	}
-	:root[tabsintitlebar] .titlebar-buttonbox .titlebar-min .toolbarbutton-icon {
+	:root[customtitlebar] .titlebar-buttonbox .titlebar-min .toolbarbutton-icon {
 		list-style-image: url("../icons/window-minimize-symbolic.svg") !important;
 	}
 
@@ -672,13 +672,13 @@ treechildren::-moz-tree-image {
 	.close-icon:not(.tab-close-button) image,
 	.identity-popup-permission-remove-button .button-icon,
 
-	:root[tabsintitlebar]  .titlebar-buttonbox .titlebar-close .toolbarbutton-icon,
-	:root[tabsintitlebar]  #titlebar-close .toolbarbutton-icon,
-	:root[tabsintitlebar]  .titlebar-buttonbox .titlebar-max .toolbarbutton-icon,
-	:root[tabsintitlebar]  #titlebar-max .toolbarbutton-icon,
-	:root[tabsintitlebar]  .titlebar-buttonbox .titlebar-min .toolbarbutton-icon,
-	:root[tabsintitlebar]  #titlebar-min .toolbarbutton-icon,
-	:root[tabsintitlebar][inFullscreen] #window-controls #restore-button .toolbarbutton-icon {
+	:root[customtitlebar]  .titlebar-buttonbox .titlebar-close .toolbarbutton-icon,
+	:root[customtitlebar]  #titlebar-close .toolbarbutton-icon,
+	:root[customtitlebar]  .titlebar-buttonbox .titlebar-max .toolbarbutton-icon,
+	:root[customtitlebar]  #titlebar-max .toolbarbutton-icon,
+	:root[customtitlebar]  .titlebar-buttonbox .titlebar-min .toolbarbutton-icon,
+	:root[customtitlebar]  #titlebar-min .toolbarbutton-icon,
+	:root[customtitlebar][inFullscreen] #window-controls #restore-button .toolbarbutton-icon {
 		fill: var(--gnome-toolbar-icon-fill) !important;
 		-moz-context-properties: fill;
 		filter: invert(60%) brightness(100%);
