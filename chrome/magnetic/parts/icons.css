@@ -846,6 +846,9 @@ treechildren::-moz-tree-image {
 #tab-session-manager_sienori-browser-action .toolbarbutton-icon {
     list-style-image: url("../ext-icons/tabs.svg") !important;
 }
+#_3579f63b-d8ee-424f-bbb6-6d0ce3285e6a_-browser-action .toolbarbutton-icon {
+    list-style-image: url("../ext-icons/chamaleon.svg") !important;
+}
 #jid0-adyhmvsp91nuo8prv0mn2vkeb84_jetpack-browser-action .toolbarbutton-icon {
     list-style-image: url("../ext-icons/raindrop.svg") !important;
 }
