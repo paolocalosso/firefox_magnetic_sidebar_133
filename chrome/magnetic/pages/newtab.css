@@ -162,3 +162,27 @@
     outline: none !important;
   }
 }
+
+/*increase shortcuts columns*/
+@-moz-document url("about:home"), url("about:newtab"){
+  @media (min-width: 1378px) {
+    .ds-outer-wrapper-breakpoint-override main {
+      width: 1226px !important;
+    }
+  }
+  @media (min-width: 1636px) {
+    .ds-outer-wrapper-breakpoint-override main {
+      width: 1466px !important;
+    }
+  }
+  @media (min-width: 1892px) {
+    .ds-outer-wrapper-breakpoint-override main {
+      width: 1726px !important;
+    }
+  }
+  @media (min-width: 2148px) {
+    .ds-outer-wrapper-breakpoint-override main {
+      width: 1966px !important;
+    }
+  }
+}
