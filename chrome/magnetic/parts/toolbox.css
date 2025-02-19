@@ -18,10 +18,10 @@
 	background: var(--gnome-toolbar-background) !important;
 }
 #nav-bar, #PersonalToolbar, #toolbar-menubar, #TabsToolbar {
-	border-bottom: 1px solid #1B1D1C /*var(--gnome-toolbar-border-color)*/ !important;
+	border-bottom: 0px solid #1B1D1C /*var(--gnome-toolbar-border-color)*/ !important;
 }
 findbar {
-	border-top: 1px solid #1B1D1C /*var(--gnome-toolbar-border-color)*/ !important;
+	border-top: 0px solid #1B1D1C /*var(--gnome-toolbar-border-color)*/ !important;
 }
 #nav-bar:-moz-window-inactive,
 #PersonalToolbar:-moz-window-inactive, 
