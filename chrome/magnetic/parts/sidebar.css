@@ -23,13 +23,8 @@ html, body, main {
 
 
 #sidebar-box, .sidebar-panel {
-<<<<<<< HEAD
 	background: #1b1d1c !important;
-=======
-	/*background-color: #1b1d1c50 !important;*/
->>>>>>> c074ee0 (autohide toolbox update)
 	border-radius: 25px !important;
-	/*background: var(--gnome-sidebar-background) !important;*/
 }
 #sidebar-box:-moz-window-inactive, .sidebar-panel:-moz-window-inactive {
 	background-color: transparent !important;
