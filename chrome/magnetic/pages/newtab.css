@@ -164,6 +164,7 @@
 }
 
 /*increase shortcuts columns*/
+/*
 @-moz-document url("about:home"), url("about:newtab"){
   @media (min-width: 1378px) {
     .ds-outer-wrapper-breakpoint-override main {
@@ -186,3 +187,4 @@
     }
   }
 }
+*/
