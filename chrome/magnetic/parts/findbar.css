@@ -15,7 +15,7 @@ findbar{
   position: relative;
   border-top: solid 1px #83A598 !important;
   border-image-slice: 1 !important;
-  border-image-source: linear-gradient(to right, #83A598, #E7E9CE) !important;
+  border-image-source: linear-gradient(to right, #83A598 , orange, #E7E9CE) !important;
   padding: 2px 0px !important;
   transition: transform 82ms linear, opacity 82ms linear 32ms !important;
   background: #1B1D1C !important;
