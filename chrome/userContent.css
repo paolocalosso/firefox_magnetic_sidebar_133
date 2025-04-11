@@ -59,7 +59,7 @@
 /* Background image for new tab page */
 @-moz-document url(about:newtab), url(about:home) {
     .outer-wrapper {
-        background-image: url(jakub-sejkora-utqJcneoFjo.jpg);
+        background-image: url(abstract_gruvbox_1920x1080.webp);
         background-size: cover;
         background-position: center;
     }
