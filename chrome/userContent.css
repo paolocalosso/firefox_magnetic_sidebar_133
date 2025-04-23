@@ -59,7 +59,7 @@
 /* Background image for new tab page */
 @-moz-document url(about:newtab), url(about:home) {
     .outer-wrapper {
-        background-image: url(abstract_gruvbox_1920x1080.webp);
+        background-image: url(ff_wallpaper_95.jpg);
         background-size: cover;
         background-position: center;
     }
